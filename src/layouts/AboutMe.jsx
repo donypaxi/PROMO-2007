@@ -10,11 +10,11 @@ export const AboutMe = () => {
             <Skill/>
           </div>
           <div className="my-auto text-slate-700 ">
-              <h2 className="text-4xl font-bold mb-5 text-center text-black">Sobre mi</h2>
-              <p className="px-10 text-center md:text-base lg:text-lg">Soy desarrollador full stack,me gusta aprender nuevas tecnologías y mejorar mis habilidades, disfruto colaborar con otros para entregar trabajos de alta calidad.</p>
+              <h2 className="text-4xl font-bold mb-5 text-center text-black">Sobre Nosotros</h2>
+              <p className="px-10 text-center md:text-base lg:text-lg">"La Promoción 2007: un legado de amistad, aprendizaje y momentos inolvidables. Celebrando más de 15 años de recuerdos que nos unen, somos más que compañeros, somos una familia."</p>
               <div className=" flex flex-col lg:flex-row gap-2 mt-5 justify-center items-center">
-                  <BtnContact/>
-                  <BtnCv/>
+                  {/* <BtnContact/>
+                  <BtnCv/> */}
               </div>
           </div>
         </div>

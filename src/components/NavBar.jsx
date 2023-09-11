@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { HiMenu, HiX} from "react-icons/hi";
 import { Link } from "react-scroll";
 import { SocialNetworks } from "./SocialNetworks";
+import { NavLink } from "react-router-dom";
 
 export const NavBar = () => {
 
@@ -48,7 +49,7 @@ export const NavBar = () => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-90}>Portafolio</Link>
+            offset={-90}>Imagenes</Link>
             <Link onClick={()=>setOpen(!open)} className='border-b-2 hover:border-cyan-200 transition-colors cursor-pointer duration-150 hover:text-cyan-600' 
             to="contactme"
             smooth={true}
@@ -56,6 +57,11 @@ export const NavBar = () => {
             spy={true}
             exact="true"
             offset={-10}>Contáctame</Link>
+            <div>
+              <NavLink to="/chamba" className='border-b-2 hover:border-cyan-200 transition-colors cursor-pointer duration-150 hover:text-cyan-600' >
+                compañeros
+              </NavLink>
+            </div>
             <div className="flex justify-around items-center mt-5 text-lg ">
               <SocialNetworks/>
             </div>

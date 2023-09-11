@@ -17,18 +17,18 @@ export const ContactMe = () => {
               </div>
               <div className="flex gap-2 items-center">
                 <BsEnvelope/>
-                <p>donypaxi@gmail.com</p>
+                <p>correoDelDelegado@gmail.com</p>
               </div>
               <div className="flex gap-2 items-center">
                 <BsWhatsapp/>
-                <p>+51957696996</p>
+                <p>+51941087757</p>
               </div>
-              <div className="flex gap-2 items-center hover:text-blue-500">
+              {/* <div className="flex gap-2 items-center hover:text-blue-500">
                 <BsLinkedin/>
                 <div>
                   <Link className=" " to="https://bit.ly/3LRSKDu" target="_blank" >https://bit.ly/3LRSKDu</Link>
                 </div>
-              </div>
+              </div> */}
           </div>
           <Formulario/>
         </div>

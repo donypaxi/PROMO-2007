@@ -17,8 +17,8 @@ export const BtnEnviar = ({name,message,limpiar}) => {
   
   const handleClick =() => {
     limpiar()
-    const phone = "957696996"
-    const encodedMessage = encodeURIComponent(`Mi nombre es ${name},  ${message}`);
+    const phone = "941087757"
+    const encodedMessage = encodeURIComponent(`Soy ${name},  ${message}`);
 
     const whatsappLink = `https://wa.me/${phone}?text=${encodedMessage}`;
     window.open(whatsappLink);

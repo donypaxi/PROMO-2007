@@ -1,6 +1,4 @@
 import { SocialNetworks } from "../components/SocialNetworks"
-import wave from "../assets/svg/wave.svg"
-import svgFooter from "../assets/svg/svgFooter.svg"
 export const Footer = () => {
   return (
     <>
