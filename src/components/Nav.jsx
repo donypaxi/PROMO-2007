@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 export const Nav = () => {
   return (
     <>
-        <div className='flex gap-5'>
+        <div className='flex gap-5 '>
           <div className='text-slate-800 hidden md:flex h-full gap-5'>
               <Link className='transition-colors cursor-pointer duration-150 hover:text-cyan-600'
               to="header"
@@ -29,11 +29,11 @@ export const Nav = () => {
               exact="true"
               offset={-10}>Contáctame</Link>
           </div>
-          <div className='text-slate-800 hidden md:flex h-full gap-5'>
+          {/* <div className='text-slate-800 hidden md:flex h-full gap-5'>
             <NavLink to="/chamba">
               Compañeros
             </NavLink>
-          </div>
+          </div> */}
         </div>
     </>
   )

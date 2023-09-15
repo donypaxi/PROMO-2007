@@ -17,7 +17,7 @@ export const ContactMe = () => {
               </div>
               <div className="flex gap-2 items-center">
                 <BsEnvelope/>
-                <p>correoDelDelegado@gmail.com</p>
+                <p>promocion007tacna@gmail.com</p>
               </div>
               <div className="flex gap-2 items-center">
                 <BsWhatsapp/>

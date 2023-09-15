@@ -34,32 +34,32 @@ export const NavBar = () => {
         </div>
         
         <div 
-          className={` bg-black/70 h-full w-screen ${open ? 'w-0' : 'fixed top-0 left-0 -z-10 '} `}>
+          className={` bg-black/70 h-full w-screen md:hidden ${open ? 'w-0' : 'fixed top-0 left-0 -z-10 '} `}>
           <div className={`absolute text-slate-800 h-full top-0 flex flex-col gap-5 py-20 px-5 duration-300 ${!open? 'right-0' : '-right-64'}  bg-white w-60`}>
-          <Link onClick={()=>setOpen(!open)} className='border-b-2 hover:border-cyan-200 transition-colors cursor-pointer duration-150 hover:text-cyan-600' 
+          <Link onClick={()=>setOpen(!open)} className='border-b-2 hover:border-cyan-200 transition-colors cursor-pointer duration-150 hover:text-cyan-600 mt-10' 
             to="header"
             smooth={true}
             duration={500}
             spy={true}
             exact="true"
-            offset={-110}>Inicio</Link>
+            offset={-150}>Inicio</Link>
             <Link onClick={()=>setOpen(!open)} className='border-b-2 hover:border-cyan-200 transition-colors cursor-pointer duration-150 hover:text-cyan-600' 
             to="projects"
             smooth={true}
             duration={500}
             spy={true}
             exact="true"
-            offset={-90}>Imagenes</Link>
+            offset={-140}>Imagenes</Link>
             <Link onClick={()=>setOpen(!open)} className='border-b-2 hover:border-cyan-200 transition-colors cursor-pointer duration-150 hover:text-cyan-600' 
             to="contactme"
             smooth={true}
             duration={500}
             spy={true}
             exact="true"
-            offset={-10}>Contáctame</Link>
-            <div>
-              <NavLink to="/chamba" className='border-b-2 hover:border-cyan-200 transition-colors cursor-pointer duration-150 hover:text-cyan-600' >
-                compañeros
+            offset={-110}>Contáctame</Link>
+            <div className="w-full border-b-2">
+              <NavLink to="/chamba" className=' hover:border-cyan-200 transition-colors cursor-pointer duration-150 hover:text-cyan-600' >
+                Compañeros
               </NavLink>
             </div>
             <div className="flex justify-around items-center mt-5 text-lg ">
